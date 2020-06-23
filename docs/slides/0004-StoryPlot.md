@@ -305,43 +305,45 @@ can't stop think about & get rid of
 <tr>
 <td width="50%">
 
-<Chart id='chart' opts={{
-		chart : {
-			type : 'pie',
-			chartData : {
-				columns : ['name', 'value'],
-				data: [{
-					name: 'Task 47%',
-					value: 7177,
-					fill: 'lightblue',
-				}, {
-					name: 'Bug 41%',
-					value: 6212,
-					fill: 'red',
-				}, {
-					name: '',
-					value: 618,
-					fill: 'orange',
-				}, {
-					name: '',
-					value: 441,
-					fill: 'orange',
-				}, {
-					name: '',
-					value: 203,
-					fill: 'orange',
-				}, {
-					name: '',
-					value: 388,
-					fill: 'orange',
-				}]
-			},
-			width : 400,
-			height: 350,
-			fontSize: '1.2vh',
-		}
+<Chart id='chart'
+opts={{
+	chart : {
+		type : 'pie',
+		chartData : {
+			columns : ['name', 'value'],
+			data: [{
+				name: 'Task 47%',
+				value: 7177,
+				fill: 'lightblue'
+			}, {
+				name: 'Bug 41%',
+				value: 6212,
+				fill: 'red'
+			}, {
+				name: '',
+				value: 618,
+				fill: 'orange'
+			}, {
+				name: '',
+				value: 441,
+				fill: 'orange'
+			}, {
+				name: '',
+				value: 203,
+				fill: 'orange'
+			}, {
+				name: '',
+				value: 388,
+				fill: 'orange'
+			}]
+		},
+		width : 400,
+		height: 350,
+		fontSize: '1.2vh',
 	}
-} />
+}}
+
+/>
 </td>
 <td>
 

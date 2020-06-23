@@ -212,14 +212,7 @@
 
 <Box sx={{marginTop: '30vh'}}>
 <center>
-
-# крестик, чтобы закрыть
-# в верхнем углу будет
-
 <h1 style={{fontSize: '7vh', color:'maroon'}}> ... которое сейчас бумкнет ...</h1>
-
-# крестик, чтобы закрыть
-# в верхнем углу будет
 </center>
 </Box>
 
@@ -227,7 +220,12 @@
 
 -----
 
+<Box sx={{textAlign: 'center'}}>
+
+<h2> бумкнуло </h2>
+
 <img src="./content/img/boom.png" style={{marginTop: '2vh', width: '65vw'}} />
+</Box>
 
 
 -----
@@ -957,15 +955,11 @@ process.on('uncaughtException', (error) => {
 <td width="50%">
 
 <Chart id='chart' opts={{
-	
 	chart : {
 		type : 'pie',
-		chartData :
-		{
+		chartData : {
 			columns : ['name', 'value'],
-			data: [
-				
-			{
+			data: [{
 				name: 'Task 47%',
 				value: 7177,
 				fill: 'lightblue'
@@ -989,9 +983,7 @@ process.on('uncaughtException', (error) => {
 				name: '',
 				value: 388,
 				fill: 'orange'
-			}
-			
-			]
+			}]
 		},
 		width : 400,
 		height: 350,
