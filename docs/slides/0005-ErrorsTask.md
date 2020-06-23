@@ -957,11 +957,15 @@ process.on('uncaughtException', (error) => {
 <td width="50%">
 
 <Chart id='chart' opts={{
+	
 	chart : {
 		type : 'pie',
-		chartData : {
+		chartData :
+		{
 			columns : ['name', 'value'],
-			data: [{
+			data: [
+				
+			{
 				name: 'Task 47%',
 				value: 7177,
 				fill: 'lightblue'
@@ -985,7 +989,9 @@ process.on('uncaughtException', (error) => {
 				name: '',
 				value: 388,
 				fill: 'orange'
-			}]
+			}
+			
+			]
 		},
 		width : 400,
 		height: 350,
