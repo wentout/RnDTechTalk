@@ -339,11 +339,9 @@ opts={{
 		},
 		width : 400,
 		height: 350,
-		fontSize: '1.2vh',
+		fontSize: '1.2vh'
 	}
-}}
-
-/>
+}} />
 </td>
 <td>
 
