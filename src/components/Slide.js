@@ -24,26 +24,38 @@ const Slide = function () {
 
 	const {
 		view,
-		snowflakes
+		snowflakes,
+		// snowflakesRed,
 	} = current;
-debugger;
-	const slideRenderer = new slide[view]();
-	this.SlideView = slideRenderer.View.bind(slideRenderer);
 
-	if (slideRenderer.Footer instanceof Function) {
-		this.footer = new slideRenderer.Footer(counters);
-		this.FooterView = this.footer.View.bind(this.footer);
-	}
+	if (slide[view] instanceof Function) {
+		const slideRenderer = new slide[view]();
+		this.SlideView = slideRenderer.View.bind(slideRenderer);
 
-	if (slideRenderer.Progressor instanceof Function) {
-		this.progressor = new slideRenderer.Progressor();
-		this.ProgressorView = this.progressor.View.bind(this.progressor);
-	}
+		if (slideRenderer.Footer instanceof Function) {
+			this.footer = new slideRenderer.Footer(counters);
+			this.FooterView = this.footer.View.bind(this.footer);
+		}
 
-	this.stopSnowflakes();
-	if (snowflakes) {
-		this.startSnowflakes();
+		if (slideRenderer.Progressor instanceof Function) {
+			this.progressor = new slideRenderer.Progressor();
+			this.ProgressorView = this.progressor.View.bind(this.progressor);
+		}
+		if (!snowflakes) {
+			this.stopSnowflakes();
+		}
+		if (snowflakes) {
+			this.startSnowflakes();
+		}
 	}
+	// if (!snowflakesRed) {
+	// 	// debugger;
+	// 	this.stopSnowflakesRed();
+	// }
+	// if (snowflakesRed) {
+	// 	// debugger;
+	// 	this.startSnowflakesRed();
+	// }
 };
 
 Slide.prototype.View = function () {

@@ -199,7 +199,6 @@ const errorHandler = [
 			setErrored
 		} = inheritedInstance.slides.current;
 		if (setErrored) {
-			debugger;
 			inheritedInstance.setErrored(error);
 		}
 		throw error.originalError;

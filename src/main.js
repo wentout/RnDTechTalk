@@ -154,8 +154,8 @@ const Main = function (rootId) {
 
 	const snowRoot = document.querySelector('#snowflakes-container');
 
-	const snowflakes = new Snowflakes({
-		color: 'white', // Default: "#5ECDEF"
+	const snowflakesConfig = {
+		// color: 'white', // Default: "#5ECDEF"
 		container: snowRoot, // Default: document.body
 		count: 100, // 100 snowflakes. Default: 50
 		minOpacity: 0.1, // From 0 to 1. Default: 0.6
@@ -167,25 +167,69 @@ const Main = function (rootId) {
 		wind: false, // Without wind. Default: true
 		height: 1050, // Default: height of container
 		zIndex: 100 // Default: 9999
+	};
+
+	const snowflakesConfigWhite = Object.assign({}, snowflakesConfig, {
+		color: 'white'
 	});
+	// const snowflakesConfigRed = Object.assign({}, snowflakesConfig, {
+	// 	color: 'red'
+	// });
+
+	let snowflakes = new Snowflakes(snowflakesConfigWhite);
 	snowflakes.stop();
-	
+
+	// this.snowflakesred = null;
+	// let snowflakesWorking = false;
+
 	Object.defineProperty(this, 'startSnowflakes', {
 		get () {
 			return () => {
-				snowRoot.style.display = 'block';
-				snowflakes.start();
+				// if (!snowflakesWorking) {
+					snowflakes.start();
+					snowRoot.style.display = 'block';
+					// snowflakesWorking = true;
+				// }
 			}
 		},
 	});
+
 	Object.defineProperty(this, 'stopSnowflakes', {
 		get () {
 			return () => {
-				snowRoot.style.display = 'none';
-				snowflakes.stop();
+				// if (snowflakesWorking) {
+					snowflakes.stop();
+					// snowflakes.destroy();
+					snowRoot.style.display = 'none';
+					// snowflakesWorking = false;	
+				// }
 			}
 		},
 	});
+
+	// Object.defineProperty(this, 'startSnowflakesRed', {
+	// 	get () {
+	// 		return () => {
+	// 			// snowflakes.destroy();
+	// 			this.snowflakesred = new Snowflakes(snowflakesConfigRed);
+	// 			this.snowflakesred.start();
+	// 			snowRoot.style.display = 'block';
+	// 		}
+	// 	},
+	// });
+
+	// Object.defineProperty(this, 'stopSnowflakesRed', {
+	// 	get () {
+	// 		return () => {
+	// 			if (this.snowflakesred) {
+	// 				// snowflakes.destroy();
+	// 				this.snowflakesred.stop();
+	// 				snowRoot.style.display = 'block';
+	// 			}
+	// 		}
+	// 	},
+	// });
+
 };
 
 Main.prototype = {
@@ -546,7 +590,7 @@ Main.prototype = {
 			return o;
 		}, []);
 	},
-	
+
 	collectTimestamps () {
 		const instance = this;
 		return {
