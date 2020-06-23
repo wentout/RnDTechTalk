@@ -226,9 +226,8 @@
 
 
 -----
-[{"errorMode":6, "setErrored":true}]
 
-< TO MAKE THIS STUFF AS MUCH BETTER AS I CAN  >
+<img src="./content/img/boom.png" style={{marginTop: '2vh', width: '65vw'}} />
 
 
 -----

@@ -313,27 +313,27 @@ can't stop think about & get rid of
 			data: [{
 				name: 'Task 47%',
 				value: 7177,
-				fill: 'lightblue'
+				fill: 'lightblue',
 			}, {
 				name: 'Bug 41%',
 				value: 6212,
-				fill: 'red'
+				fill: 'red',
 			}, {
 				name: '',
 				value: 618,
-				fill: 'orange'
+				fill: 'orange',
 			}, {
 				name: '',
 				value: 441,
-				fill: 'orange'
+				fill: 'orange',
 			}, {
 				name: '',
 				value: 203,
-				fill: 'orange'
+				fill: 'orange',
 			}, {
 				name: '',
 				value: 388,
-				fill: 'orange'
+				fill: 'orange',
 			}]
 		},
 		width : 400,
