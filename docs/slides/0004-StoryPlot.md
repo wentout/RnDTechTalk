@@ -305,8 +305,7 @@ can't stop think about & get rid of
 <tr>
 <td width="50%">
 
-<Chart id='chart'
-opts={{
+<Chart id='chart' opts={{
 	chart : {
 		type : 'pie',
 		chartData : {
