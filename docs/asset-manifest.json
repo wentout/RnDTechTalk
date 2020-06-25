@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/slider/static/css/main.f7f9ec11.chunk.css",
-    "main.js": "/slider/static/js/main.5415b0d6.chunk.js",
-    "main.js.map": "/slider/static/js/main.5415b0d6.chunk.js.map",
-    "runtime-main.js": "/slider/static/js/runtime-main.b355f280.js",
-    "runtime-main.js.map": "/slider/static/js/runtime-main.b355f280.js.map",
-    "static/js/2.505df14f.chunk.js": "/slider/static/js/2.505df14f.chunk.js",
-    "static/js/2.505df14f.chunk.js.map": "/slider/static/js/2.505df14f.chunk.js.map",
-    "index.html": "/slider/index.html",
-    "precache-manifest.e077c99238ffe5905547861623478c25.js": "/slider/precache-manifest.e077c99238ffe5905547861623478c25.js",
-    "service-worker.js": "/slider/service-worker.js",
-    "static/css/main.f7f9ec11.chunk.css.map": "/slider/static/css/main.f7f9ec11.chunk.css.map",
-    "static/js/2.505df14f.chunk.js.LICENSE.txt": "/slider/static/js/2.505df14f.chunk.js.LICENSE.txt"
+    "main.css": "/PiterHolyJS2020/static/css/main.f7f9ec11.chunk.css",
+    "main.js": "/PiterHolyJS2020/static/js/main.5415b0d6.chunk.js",
+    "main.js.map": "/PiterHolyJS2020/static/js/main.5415b0d6.chunk.js.map",
+    "runtime-main.js": "/PiterHolyJS2020/static/js/runtime-main.f5505cee.js",
+    "runtime-main.js.map": "/PiterHolyJS2020/static/js/runtime-main.f5505cee.js.map",
+    "static/js/2.c9c822d5.chunk.js": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js",
+    "static/js/2.c9c822d5.chunk.js.map": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js.map",
+    "index.html": "/PiterHolyJS2020/index.html",
+    "precache-manifest.e34b09a9ae924f39ed51f93199767bd7.js": "/PiterHolyJS2020/precache-manifest.e34b09a9ae924f39ed51f93199767bd7.js",
+    "service-worker.js": "/PiterHolyJS2020/service-worker.js",
+    "static/css/main.f7f9ec11.chunk.css.map": "/PiterHolyJS2020/static/css/main.f7f9ec11.chunk.css.map",
+    "static/js/2.c9c822d5.chunk.js.LICENSE.txt": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b355f280.js",
-    "static/js/2.505df14f.chunk.js",
+    "static/js/runtime-main.f5505cee.js",
+    "static/js/2.c9c822d5.chunk.js",
     "static/css/main.f7f9ec11.chunk.css",
     "static/js/main.5415b0d6.chunk.js"
   ]

@@ -1,5 +1,5 @@
 const port = 3001;
-const path = '/slider';
+const path = '/PiterHolyJS2020';
 
 console.log('port', port);
 console.log('path', path);
