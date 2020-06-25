@@ -279,8 +279,12 @@ Main.prototype = {
 
 	makeRender () {
 		this.hideRootError();
-		this.root = new this.Slide();
-		this.root.View();
+		if (this.Slide instanceof Function) {
+			this.root = new this.Slide();
+			this.root.View();
+		} else {
+			window.location.reload();
+		}
 	},
 
 	setSlideIndex (index) {

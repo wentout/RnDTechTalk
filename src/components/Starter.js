@@ -11,7 +11,7 @@ Starter.prototype.View = function () {
 		// counters
 	} = this;
 	return (
-		<div className="StarterSlide">
+		<div className="StarterSlide" >
 			<ProgressorView />
 			<div>
 				<h1>{this.title}</h1>

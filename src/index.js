@@ -3,7 +3,7 @@ import {Component} from 'react-dom';
 import {define, defaultNamespace} from "mnemonica";
 // import {define} from "mnemonica";
 
-import {Slide, Title, Starter, MDX, Footer, Progressor} from './components';
+import {Slide, Title, Title2, Starter, MDX, Footer, Progressor} from './components';
 
 import Keys from './keyboard';
 
@@ -18,6 +18,7 @@ const App = define('Main', Main);
 const SlideRoot = App.define('Slide', Slide);
 
 SlideRoot.define('Title', Title);
+SlideRoot.define('Title2', Title2);
 
 const SlideStarter = SlideRoot.define('Starter', Starter);
 SlideStarter.define('Progressor', Progressor);

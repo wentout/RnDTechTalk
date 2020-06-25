@@ -90,6 +90,14 @@ progress {
   color: orange;
 }
 
+.Slide .Title2 h1 {
+  font-weight: 700;
+  font-size: 12vh;
+  margin-top: 5vh;
+  color: steelblue;
+}
+
+
 .Slide .StarterSlide {
   display: block;
   text-align: center;

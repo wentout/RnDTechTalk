@@ -59,14 +59,15 @@ const Slide = function () {
 };
 
 Slide.prototype.View = function () {
+	const app = this;
 	const {
 		SlideView
-	} = this;
+	} = app;
 
 	ReactDOM.render(
 		<React.StrictMode>
 			<ThemeProvider theme={dark}>
-				<div className="Slide">
+				<div className="Slide" >
 					<SlideView />
 				</div>
 			</ThemeProvider>

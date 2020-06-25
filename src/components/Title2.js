@@ -7,7 +7,7 @@ const Title = function () {
 Title.prototype.View = function () {
 	return (
 		<div className="SlideContent">
-			<div className="Title" >
+			<div className="Title2" >
 				<h1>{this.title}</h1>
 				<h1 className="subtitle">{this.subtitle}</h1>
 			</div>

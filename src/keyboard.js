@@ -36,19 +36,8 @@ export default function () {
 		unsetErrored();
 	});
 
-	/*
-	window.onkeyup = function (event) {
-		
-		const {
-			keyCode
-		} = event;
-		
-		const where = CODES[keyCode];
-		if (typeof app[where] === 'function') {
-			app[where]();
-		}
-		
+	window.document.onclick = function () {
+		app.clickNext();
 	};
-	*/
 
 };
