@@ -400,6 +400,7 @@ Main.prototype = {
 			md: 'MDX',
 			mdx: 'MDX',
 			jsx: 'Jsx',
+			txt: 'MDX',
 		};
 
 		const parser = ext === 'json' ? 'json' : 'text';
