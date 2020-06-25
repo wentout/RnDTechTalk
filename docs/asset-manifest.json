@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/PiterHolyJS2020/static/css/main.f7f9ec11.chunk.css",
-    "main.js": "/PiterHolyJS2020/static/js/main.5415b0d6.chunk.js",
-    "main.js.map": "/PiterHolyJS2020/static/js/main.5415b0d6.chunk.js.map",
+    "main.css": "/PiterHolyJS2020/static/css/main.58f4dcf7.chunk.css",
+    "main.js": "/PiterHolyJS2020/static/js/main.7d475171.chunk.js",
+    "main.js.map": "/PiterHolyJS2020/static/js/main.7d475171.chunk.js.map",
     "runtime-main.js": "/PiterHolyJS2020/static/js/runtime-main.f5505cee.js",
     "runtime-main.js.map": "/PiterHolyJS2020/static/js/runtime-main.f5505cee.js.map",
     "static/js/2.c9c822d5.chunk.js": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js",
     "static/js/2.c9c822d5.chunk.js.map": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js.map",
     "index.html": "/PiterHolyJS2020/index.html",
-    "precache-manifest.e34b09a9ae924f39ed51f93199767bd7.js": "/PiterHolyJS2020/precache-manifest.e34b09a9ae924f39ed51f93199767bd7.js",
+    "precache-manifest.ed1c27d089ddc050f6dc9e546718764c.js": "/PiterHolyJS2020/precache-manifest.ed1c27d089ddc050f6dc9e546718764c.js",
     "service-worker.js": "/PiterHolyJS2020/service-worker.js",
-    "static/css/main.f7f9ec11.chunk.css.map": "/PiterHolyJS2020/static/css/main.f7f9ec11.chunk.css.map",
+    "static/css/main.58f4dcf7.chunk.css.map": "/PiterHolyJS2020/static/css/main.58f4dcf7.chunk.css.map",
     "static/js/2.c9c822d5.chunk.js.LICENSE.txt": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f5505cee.js",
     "static/js/2.c9c822d5.chunk.js",
-    "static/css/main.f7f9ec11.chunk.css",
-    "static/js/main.5415b0d6.chunk.js"
+    "static/css/main.58f4dcf7.chunk.css",
+    "static/js/main.7d475171.chunk.js"
   ]
 }

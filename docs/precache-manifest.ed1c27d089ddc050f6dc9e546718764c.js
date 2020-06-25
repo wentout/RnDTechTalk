@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78d13bf1d54f05af28c5b7c9fc68a19f",
+    "revision": "db0b0bef994c7499e64170a2d9d49ea1",
     "url": "/PiterHolyJS2020/index.html"
   },
   {
-    "revision": "c331b0558c968e61215e",
-    "url": "/PiterHolyJS2020/static/css/main.f7f9ec11.chunk.css"
+    "revision": "5f7aa714680b08a79c82",
+    "url": "/PiterHolyJS2020/static/css/main.58f4dcf7.chunk.css"
   },
   {
     "revision": "b5e490d6816e7f92699c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PiterHolyJS2020/static/js/2.c9c822d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c331b0558c968e61215e",
-    "url": "/PiterHolyJS2020/static/js/main.5415b0d6.chunk.js"
+    "revision": "5f7aa714680b08a79c82",
+    "url": "/PiterHolyJS2020/static/js/main.7d475171.chunk.js"
   },
   {
     "revision": "4d6ed7a8340e4cbb8a7f",

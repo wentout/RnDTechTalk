@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PiterHolyJS2020/precache-manifest.e34b09a9ae924f39ed51f93199767bd7.js"
+  "/PiterHolyJS2020/precache-manifest.ed1c27d089ddc050f6dc9e546718764c.js"
 );
 
 self.addEventListener('message', (event) => {
