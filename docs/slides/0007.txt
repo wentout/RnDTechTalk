@@ -1447,7 +1447,7 @@ setTimeout(() => {
 </center>
 </Box>
 
-<Box style={{background:'white', width:'70vw', margin: 'auto', padding: '3vh'}}>
+<Box style={{width:'70vw', margin: 'auto', padding: '3vh'}}>
 <center>
 <a href="https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique">
 <img src="./content/img/Pert_chart_colored.svg" style={{marginTop: '2vh', width: '51vw'}} />

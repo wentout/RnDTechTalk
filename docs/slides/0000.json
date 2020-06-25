@@ -1,5 +1,9 @@
-{
+[{
+	"view" : "Title",
+	"title" : "FullHD only",
+	"subtitle" : "nav by ← →"
+},{
 	"view" : "Title",
 	"title" : "Chronotope:",
 	"subtitle" : "await Eloquent.Errors"
-}
+}]
