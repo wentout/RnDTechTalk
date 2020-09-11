@@ -1,7 +1,8 @@
-0000.json 1
-0001.json 0
-0002.json 1
-0004-StoryPlot.txt 33
-0005-ErrorsTask.txt 71
-0006-Dreams.txt 101
-0007.txt 80
+0000.json 0
+0001.json 1
+0002.md 1
+0003.json 5
+0004-StoryPlot.md 38
+0005-ErrorsTask.md 30
+0006-Dreams.md 142
+0007.md 71

@@ -1,9 +1,5 @@
-[{
-	"view" : "Title2",
-	"title" : "FullHD only",
-	"subtitle" : "nav by ← →"
-},{
+{
 	"view" : "Title",
-	"title" : "Chronotope:",
-	"subtitle" : "await Eloquent.Errors"
-}]
+	"title" : "Time Script",
+	"subtitle" : "incremental computation"
+}

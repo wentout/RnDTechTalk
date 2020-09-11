@@ -195,13 +195,14 @@ const errorHandler = [
 	},
 
 	(error, inheritedInstance) => {
-		const {
-			setErrored
-		} = inheritedInstance.slides.current;
-		if (setErrored) {
-			inheritedInstance.setErrored(error);
-		}
-		throw error.originalError;
+		throw error;
+		// const {
+		// 	setErrored
+		// } = inheritedInstance.slides.current;
+		// if (setErrored) {
+		// 	inheritedInstance.setErrored(error);
+		// }
+		// throw error.originalError;
 	}
 
 ];

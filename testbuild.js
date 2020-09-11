@@ -1,5 +1,5 @@
 const port = 3001;
-const path = '/PiterHolyJS2020';
+const path = '/RnD_GDG_2020';
 
 console.log('port', port);
 console.log('path', path);

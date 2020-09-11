@@ -26,6 +26,8 @@ export default function () {
 
 	const listener = new window.keypress.Listener();
 
+	listener.simple_combo('home', w(slidePrev));
+	listener.simple_combo('end', w(slideNext));
 	listener.simple_combo('left', w(slidePrev));
 	listener.simple_combo('right', w(slideNext));
 	listener.simple_combo('space', w(slideNext));
