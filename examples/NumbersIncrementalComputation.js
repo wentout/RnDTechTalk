@@ -71,3 +71,4 @@ console.log(k.zik);
 console.log(k.pick);
 
 
+debugger;

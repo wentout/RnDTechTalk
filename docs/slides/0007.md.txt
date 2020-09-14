@@ -1469,7 +1469,7 @@ setTimeout(() => {
 
 <br/>
 
-# https://github.com/mythographica/slider
+# https://github.com/wentout/RnDTechTalk
 
 
 </center>
